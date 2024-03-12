@@ -1,0 +1,15 @@
+- add milli-seconds to timestamps
+- checkout the leftover people 
+- add Find Me feature
+- Add Instructions Page
+- in password generator, password should not start with 0's
+
+
+
+Tables used in this open elective module are 
+-active time
+-electives
+-otp
+-pwdreset
+-results
+-students

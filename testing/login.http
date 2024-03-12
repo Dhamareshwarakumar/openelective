@@ -1,0 +1,36 @@
+# POST http://127.0.0.1/openelective/includes/login.php
+# Content-Type: application/json
+
+# {
+#     "jntu_no": "18341A0537",
+#     "password": "18341A0537"
+# }
+
+
+# GET http://localhost/openelective/includes/get_seats_left.php
+
+
+POST http://127.0.0.1/openelective/includes/submit_form.php
+Content-Type: application/json
+Host: localhost
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+sec-ch-ua: "Chromium";v="94", "Google Chrome";v="94", ";Not A Brand";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost/openelective/login.php
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: language=en; welcomebanner_status=dismiss; cookieconsent_status=dismiss; PHPSESSID=6uclbo4r8ln6js1o26gd3fkp6s; _xsrf=2|63b878d4|45d215ed4d67ee2dbfd93e60be0558e3|1632485144; username-localhost-8888="2|1:0|10:1632522016|23:username-localhost-8888|44:ODc4ZGViYWU2ZTdhNGRiZmFiMjJhYjYwNTkzMDBmMGY=|72d46cfba0f48d89d93729b507eef424f572227dbfe26a685b273bf7f0e8e618"; ext_name=ojplmecpdpgccookcobabopnaifgidhf
+
+{
+    "CourseCode": "16CS007"
+}

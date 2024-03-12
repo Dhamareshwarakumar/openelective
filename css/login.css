@@ -1,0 +1,34 @@
+.text-primary {
+    color: #6c63ff;
+}
+
+.page-divider {
+    width: 50vw;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(108, 99, 255, 0.7);
+    /* z-index: "-2"; */
+}
+
+.adminlogin_landing {
+    height: 100vh;
+    padding: 15px;
+}
+
+.adminlogin_landing_card {
+    max-width: 1080px;
+    min-height: 55vh;
+    margin: auto;
+    padding: 25px;
+    position: relative;
+}
+
+.adminlogin_landing_card_main {
+    min-height: 45vh;
+}
+
+@media (max-width: 576px) {
+    .login-heading {
+        font-size: 2.2rem;
+    }
+}
